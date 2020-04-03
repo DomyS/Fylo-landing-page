@@ -1,0 +1,55 @@
+$introBlue: hsl(217, 28%, 15%);
+$mainBgBlue: hsl(218, 28%, 13%);
+$footerBlue: hsl(216, 53%, 9%);
+$testimonialsBlue: hsl(219, 30%, 18%);
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$white: hsla(0, 0%, 100%, 0.712);
+$Raleway: "Raleway", sans-serif;
+$OpenSans: "Open Sans", sans-serif;
+
+.wrapperQuotes {
+  background-color: $mainBgBlue;
+  .blueQuotes {
+    position: absolute;
+    margin: 20px 140px;
+  }
+  .mainContainer {
+    color: $white;
+    display: flex;
+    max-width: 75em;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    background-color: $mainBgBlue;
+    justify-content: space-around;
+    margin-bottom: 15%;
+    .card {
+      position: relative;
+      width: 20em;
+      padding: 23px;
+      background-color: $testimonialsBlue;
+      margin: 50px 0;
+      //margin-bottom: 100%;
+      img {
+        height: 35px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapperQuotes {
+    .blueQuotes {
+      position: absolute;
+      margin: -50px 40px;
+    }
+    .mainContainer {
+      margin-top: 65px;
+      margin-bottom: 200px;
+      .card {
+        width: 16em;
+        margin-top: -20px;
+      }
+    }
+  }
+}

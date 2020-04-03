@@ -1,0 +1,28 @@
+$Raleway: "Raleway", sans-serif;
+$OpenSans: "Open Sans", sans-serif;
+
+button {
+  background-image: linear-gradient(
+    to right top,
+    #81d9d4,
+    #67cbd3,
+    #4fbdd2,
+    #3caed0,
+    #339ecc
+  );
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-family: $OpenSans;
+  &:hover {
+    background-image: linear-gradient(
+      to left top,
+      #81d9d4,
+      #67cbd3,
+      #4fbdd2,
+      #3caed0,
+      #339ecc
+    );
+  }
+}

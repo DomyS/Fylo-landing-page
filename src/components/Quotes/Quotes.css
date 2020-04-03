@@ -1,0 +1,51 @@
+.wrapperQuotes {
+  background-color: #181f2a;
+}
+
+.wrapperQuotes .blueQuotes {
+  position: absolute;
+  margin: 20px 140px;
+}
+
+.wrapperQuotes .mainContainer {
+  color: rgba(255, 255, 255, 0.712);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 75em;
+  margin: 100px auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #181f2a;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 15%;
+}
+
+.wrapperQuotes .mainContainer .card {
+  position: relative;
+  width: 20em;
+  padding: 23px;
+  background-color: #202a3c;
+  margin: 50px 0;
+}
+
+.wrapperQuotes .mainContainer .card img {
+  height: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapperQuotes .blueQuotes {
+    position: absolute;
+    margin: -50px 40px;
+  }
+  .wrapperQuotes .mainContainer {
+    margin-top: 65px;
+    margin-bottom: 200px;
+  }
+  .wrapperQuotes .mainContainer .card {
+    width: 16em;
+    margin-top: -20px;
+  }
+}
+/*# sourceMappingURL=Quotes.css.map */

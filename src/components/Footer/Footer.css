@@ -1,0 +1,126 @@
+.mainFooter {
+  background-color: #0b1523;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: -1;
+}
+
+.mainFooter .mainText {
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #0b1523;
+  padding: 3%;
+}
+
+.mainFooter .mainText .Logo {
+  margin-left: 100px;
+}
+
+.mainFooter .mainText .footerMenu {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 80em;
+  margin: 0 auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.mainFooter .mainText .footerMenu .menuSoc {
+  cursor: pointer;
+}
+
+.mainFooter .mainText .footerMenu .menuSoc a {
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  margin: 8px;
+  border-radius: 30px;
+  padding: 6px;
+  text-align: center;
+}
+
+.mainFooter .mainText .footerMenu .menuSoc a i {
+  width: 28px;
+  padding-top: 15px;
+}
+
+.mainFooter .mainText .footerMenu .menu {
+  max-width: 18em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainFooter .mainText .footerMenu .menu1 {
+  max-width: 20em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainFooter .mainText .footerMenu .menu1 .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainFooter .mainText .footerMenu .menu1 .connect p {
+  margin-left: 8px;
+}
+
+.mainFooter .mainText .footerMenu .menu1 .connect img {
+  height: 15px;
+}
+
+.mainFooter .mainText .footerMenu .menu2 {
+  max-width: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.mainFooter .mainText .footerMenu .menu2 img {
+  height: 15px;
+}
+
+.mainFooter .mainText .footerMenu .menu2 p {
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainFooter .mainText {
+    top: 200px;
+  }
+  .mainFooter .mainText .Logo {
+    margin-left: 20px;
+  }
+  .mainFooter .mainText .footerMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainFooter .mainText .footerMenu .menuSoc {
+    margin: 20px auto;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,81 @@
+.wrapperAccess .access {
+  color: white;
+  max-width: 40em;
+  margin: -120px auto;
+  text-align: center;
+  padding: 30px 65px;
+  background-color: #1c2431;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.wrapperAccess .access h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapperAccess .access p {
+  max-width: 30em;
+  margin: 20px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapperAccess .access .inputMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.wrapperAccess .access .inputMain button {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.wrapperAccess .access .inputMain input[type="text"] {
+  height: 5vh;
+  width: 27vw;
+  border-radius: 20px;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapperAccess .access {
+    width: 13em;
+    padding: 55px;
+    text-align: center;
+    margin: -100px auto -170px auto;
+  }
+  .wrapperAccess .access h1 {
+    font-size: 20px;
+    width: 11em;
+    margin-top: -15px;
+  }
+  .wrapperAccess .access p {
+    width: 13em;
+    text-align: center;
+    margin-top: -5px;
+  }
+  .wrapperAccess .access .inputMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+    line-height: 60px;
+  }
+  .wrapperAccess .access .inputMain input[type="text"] {
+    padding: 12px;
+    width: 50vw;
+  }
+  .wrapperAccess .access .inputMain button {
+    width: 57vw;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=Access.css.map */

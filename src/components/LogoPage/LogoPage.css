@@ -1,0 +1,58 @@
+.mainWrapper {
+  background-color: #181f2a;
+  margin-top: -30px;
+}
+
+.mainWrapper .container {
+  position: relative;
+  top: -150px;
+  max-width: 60em;
+  width: 100%;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.mainWrapper .container .card {
+  width: 25em;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.mainWrapper .container .card h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.mainWrapper .container .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.mainWrapper .container .card img {
+  height: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainWrapper {
+    margin-top: -4px;
+  }
+  .mainWrapper .container {
+    height: 175vh;
+    top: 3px;
+  }
+  .mainWrapper .container .card {
+    max-width: 20em;
+    padding-top: 25px;
+    margin-top: 45px;
+  }
+}
+/*# sourceMappingURL=LogoPage.css.map */

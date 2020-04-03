@@ -1,0 +1,59 @@
+.Header {
+  text-align: center;
+  color: white;
+  max-width: 95em;
+  margin: 0 auto;
+  background: #1c2431;
+}
+
+.Header .curvy {
+  margin-top: -14%;
+  z-index: -1;
+}
+
+.Header .texts {
+  position: relative;
+  margin: 5%;
+  z-index: 2;
+}
+
+.Header .texts h1 {
+  max-width: 20em;
+  margin: 0 auto;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+}
+
+.Header .texts p {
+  max-width: 30em;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.Header .texts button {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#81d9d4), color-stop(#67cbd3), color-stop(#4fbdd2), color-stop(#3caed0), to(#339ecc));
+  background-image: linear-gradient(to right top, #81d9d4, #67cbd3, #4fbdd2, #3caed0, #339ecc);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header .Ilustration {
+    height: 30vh;
+  }
+  .Header .texts {
+    max-width: 20em;
+    margin: 15px auto;
+  }
+  .Header .texts h1 {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

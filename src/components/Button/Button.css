@@ -1,0 +1,15 @@
+button {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#81d9d4), color-stop(#67cbd3), color-stop(#4fbdd2), color-stop(#3caed0), to(#339ecc));
+  background-image: linear-gradient(to right top, #81d9d4, #67cbd3, #4fbdd2, #3caed0, #339ecc);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#81d9d4), color-stop(#67cbd3), color-stop(#4fbdd2), color-stop(#3caed0), to(#339ecc));
+  background-image: linear-gradient(to left top, #81d9d4, #67cbd3, #4fbdd2, #3caed0, #339ecc);
+}
+/*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,97 @@
+.mainWrapperProd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #181f2a;
+}
+
+.mainWrapperProd .containerProd {
+  width: 80em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainWrapperProd .containerProd img {
+  height: 60vh;
+}
+
+.mainWrapperProd .containerProd .texts {
+  color: white;
+}
+
+.mainWrapperProd .containerProd .texts .works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 11vw;
+  border-bottom: 1px solid #65e2d9;
+}
+
+.mainWrapperProd .containerProd .texts .works a {
+  text-decoration: none;
+  color: #65e2d9;
+  padding: 3px;
+}
+
+.mainWrapperProd .containerProd .texts .works img {
+  height: 20px;
+}
+
+.mainWrapperProd .containerProd .texts h1 {
+  max-width: 10em;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mainWrapperProd .containerProd .texts p {
+  max-width: 30em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainWrapperProd .containerProd img {
+    height: 40vh;
+  }
+  .mainWrapperProd .containerProd .texts h1 {
+    max-width: 20em;
+    font-size: 18px;
+    text-align: center;
+  }
+  .mainWrapperProd .containerProd .texts p {
+    max-width: 23em;
+    text-align: justify;
+  }
+  .mainWrapperProd .containerProd .texts .works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 11em;
+    border-bottom: 1px solid #65e2d9;
+  }
+  .mainWrapperProd .containerProd .texts .works a {
+    text-decoration: none;
+    color: #65e2d9;
+    padding: 3px;
+  }
+  .mainWrapperProd .containerProd .texts .works img {
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=Productive.css.map */

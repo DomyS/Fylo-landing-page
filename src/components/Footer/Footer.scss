@@ -1,0 +1,100 @@
+$introBlue: hsl(217, 28%, 15%);
+$mainBgBlue: hsl(218, 28%, 13%);
+$footerBlue: hsl(216, 53%, 9%);
+$testimonialsBlue: hsl(219, 30%, 18%);
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$white: hsl(0, 0%, 100%);
+$Raleway: "Raleway", sans-serif;
+$OpenSans: "Open Sans", sans-serif;
+
+.mainFooter {
+  background-color: $footerBlue;
+  position: relative;
+  flex-wrap: wrap;
+  z-index: -1;
+  .mainText {
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: $footerBlue;
+    padding: 3%;
+    .Logo {
+      margin-left: 100px;
+    }
+    .footerMenu {
+      flex-wrap: wrap;
+      max-width: 80em;
+      margin: 0 auto;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      color: $white;
+      .menuSoc {
+        cursor: pointer;
+        a {
+          color: $white;
+          font-size: 20px;
+          border: 1px solid $white;
+          margin: 8px;
+          border-radius: 30px;
+          padding: 6px;
+          text-align: center;
+          i {
+            width: 28px;
+            padding-top: 15px;
+          }
+        }
+      }
+      .menu {
+        max-width: 18em;
+        display: flex;
+      }
+      .menu1 {
+        max-width: 20em;
+        justify-content: space-evenly;
+        .connect {
+          display: flex;
+          align-items: center;
+
+          p {
+            margin-left: 8px;
+          }
+          img {
+            height: 15px;
+          }
+        }
+      }
+      .menu2 {
+        max-width: 20em;
+        display: flex;
+        align-items: baseline;
+        img {
+          height: 15px;
+        }
+        p {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainFooter {
+    .mainText {
+      top: 200px;
+      .Logo {
+        margin-left: 20px;
+      }
+      .footerMenu {
+        display: flex;
+        flex-direction: column;
+        .menuSoc {
+          margin: 20px auto;
+        }
+      }
+    }
+  }
+}

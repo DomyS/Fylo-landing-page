@@ -1,0 +1,47 @@
+.wrapperNavbar {
+  background: #1c2431;
+}
+
+.wrapperNavbar .navBar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20vh;
+  margin: 0 auto;
+  width: 90vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapperNavbar .navBar li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  margin: 25px;
+}
+
+.wrapperNavbar .navBar li:hover {
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    font-size: 14px;
+  }
+  .navBar .menu {
+    margin: 0px;
+  }
+  .navBar li {
+    max-width: 15px;
+  }
+  .navBar img {
+    height: 4.5vh;
+  }
+}
+/*# sourceMappingURL=navBar.css.map */
